@@ -1,0 +1,53 @@
+{
+  "plates": [
+    {
+      "id": "P001",
+      "thickness": 12,
+      "length": 8000,
+      "width": 2000,
+      "holes": 4,
+      "beam_size": "20x12",
+      "price": 5000
+    },
+    {
+      "id": "P002",
+      "thickness": 16,
+      "length": 10000,
+      "width": 2500,
+      "holes": 6,
+      "beam_size": "27x16",
+      "price": 7000
+    },
+    {
+      "id": "P003",
+      "thickness": 20,
+      "length": 12000,
+      "width": 3000,
+      "holes": 8,
+      "beam_size": "30x16",
+      "price": 9000
+    },
+    {
+      "id": "P004",
+      "thickness": 10,
+      "length": 6000,
+      "width": 1500,
+      "holes": 2,
+      "beam_size": "15x12",
+      "price": 3500
+    }
+  ],
+  "constraints": {
+    "max_shift_hours": 8.0,
+    "max_plates_per_shift": 3,
+    "material_cost_per_ton": 500,
+    "energy_cost_per_kwh": 5,
+    "labor_cost_per_hour": 50
+  },
+  "weights": {
+    "profit_weight": 1.0,
+    "nesting_weight": 0.5,
+    "first_pass_weight": 0.5,
+    "energy_weight": -0.3
+  }
+}
